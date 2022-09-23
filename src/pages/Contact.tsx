@@ -15,7 +15,7 @@ function Contact() {
     formState: { errors },
   } = useForm()
 
-  const onSubmit = async (data) => {
+  const onSubmit = async (data: any) => {
     const { name, email, subject, message } = data
 
     console.log('Name: ', name)
@@ -132,7 +132,6 @@ function Contact() {
                     </label>
                     <input
                       type="text"
-                      name="name"
                       id="name"
                       autoComplete="name"
                       className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-[#0099ff] focus:border-[#0099ff] border-gray-300 rounded-md"
@@ -149,13 +148,13 @@ function Contact() {
                         },
                       })}
                     />
-                    {errors.name ? (
+                    {/* {errors.name ? (
                       <span className="errorMessage text-red-400 flex mt-2 justify-start ml-4">
                         {errors.name.message}
                       </span>
                     ) : (
                       <span className="invisible text-red-400 flex mt-2 justify-start ml-4">field without error</span>
-                    )}
+                    )} */}
                   </div>
                   <div>
                     <label htmlFor="email" className="sr-only">
@@ -163,7 +162,6 @@ function Contact() {
                     </label>
                     <input
                       id="email"
-                      name="email"
                       type="email"
                       autoComplete="email"
                       className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-[#0099ff] focus:border-[#0099ff] border-gray-300 rounded-md"
@@ -177,13 +175,13 @@ function Contact() {
                         },
                       })}
                     />
-                    {errors.email ? (
+                    {/* {errors.email ? (
                       <span className="errorMessage text-red-400 flex mt-2 justify-start ml-4">
                         {errors.email.message}
                       </span>
                     ) : (
                       <span className="invisible text-red-400 flex mt-2 justify-start ml-4">field without error</span>
-                    )}
+                    )} */}
                   </div>
                   <div>
                     <label htmlFor="phone" className="sr-only">
@@ -191,7 +189,6 @@ function Contact() {
                     </label>
                     <input
                       type="tel"
-                      name="phone"
                       id="phone"
                       autoComplete="tel"
                       className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-[#0099ff] focus:border-[#0099ff] border-gray-300 rounded-md"
@@ -204,12 +201,12 @@ function Contact() {
                         },
                       })}
                     />
-                    {errors.phone ? (
+                    {/* {errors.phone ? (
                       <span className="errorMessage text-red-400 flex mt-2 justify-start ml-4">
                         {errors.phone.message}
                       </span>
                     ) : (
-                      <span className="invisible text-red-400 flex mt-2 justify-start ml-4">field without error</span>
+                      <span className="invisible text-red-400 flex mt-2 justify-start ml-4">field without error</span> */}
                     )}
                   </div>
                   <div>
@@ -218,7 +215,6 @@ function Contact() {
                     </label>
                     <input
                       type="text"
-                      name="subject"
                       id="subject"
                       className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-[#0099ff] focus:border-[#0099ff] border-gray-300 rounded-md"
                       placeholder="Assunto"
@@ -230,13 +226,13 @@ function Contact() {
                         },
                       })}
                     />
-                    {errors.subject ? (
+                    {/* {errors.subject ? (
                       <span className="errorMessage text-red-400 flex mt-2 justify-start ml-4">
                         {errors.subject.message}
                       </span>
                     ) : (
                       <span className="invisible text-red-400 flex mt-2 justify-start ml-4">field without error</span>
-                    )}
+                    )} */}
                   </div>
                   <div>
                     <label htmlFor="message" className="sr-only">
@@ -244,7 +240,6 @@ function Contact() {
                     </label>
                     <textarea
                       id="message"
-                      name="message"
                       rows={4}
                       className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-[#0099ff] focus:border-[#0099ff] border-gray-300 rounded-md"
                       placeholder="Escreva seu recado..."
@@ -257,13 +252,13 @@ function Contact() {
                         },
                       })}
                     />
-                    {errors.message ? (
+                    {/* {errors.message ? (
                       <span className="errorMessage text-red-400 flex mt-2 justify-start ml-4">
                         {errors.message.message}
                       </span>
                     ) : (
                       <span className="invisible text-red-400 flex mt-2 justify-start ml-4">field without error</span>
-                    )}
+                    )} */}
                   </div>
                   <div>
                     {/* <GoogleReCaptcha onVerify={onVerify} refreshReCaptcha={refreshReCaptcha} /> */}

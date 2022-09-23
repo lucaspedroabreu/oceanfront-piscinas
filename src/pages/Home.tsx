@@ -39,13 +39,13 @@ function Home() {
             ></path>
           </svg>
           <div className="relative flex flex-col items-center gap-2 bottom-0 bg-[#0099ff] z-50 w-full justify-center py-5">
-            <a className="bg-[#253041] px-10 py-4 rounded-lg text-white text-2xl flex gap-4 items-center justify-center w-fit">
+            <a className="bg-[#253041] mx-4 px-10 py-4 rounded-lg text-white text-2xl flex gap-4 items-center justify-center w-fit">
               <img src="building.png" width={26} className="before-shape" />
-              <span>Serviços Comerciais</span>
+              <span className="whitespace-nowrap">Serviços Comerciais</span>
             </a>
-            <a className="bg-[#0052da] px-10 py-4 rounded-lg text-white text-2xl flex gap-4 items-center justify-center w-fit">
+            <a className="bg-[#0052da] mx-4 px-10 py-4 rounded-lg text-white text-2xl flex gap-4 items-center justify-center w-fit">
               <HouseLine size={32} className="before-shape" />
-              <span>Serviços Residenciais</span>
+              <span className="whitespace-nowrap">Serviços Residenciais</span>
             </a>
           </div>
         </div>

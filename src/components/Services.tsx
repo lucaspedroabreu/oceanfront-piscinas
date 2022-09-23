@@ -8,8 +8,7 @@ function Services() {
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-anchor-placement="top-center"
-          data-aos-offset="200"
+          data-aos-anchor-placement="center-bottom"
           data-aos-once="true"
           data-aos-delay="50"
           className="relative max-w-xs rounded-lg overflow-hidden shadow-lg hover:ring-1 hover:bg-cyan-400 group"
@@ -30,8 +29,7 @@ function Services() {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
-          data-aos-anchor-placement="top-center"
-          data-aos-offset="200"
+          data-aos-anchor-placement="center-bottom"
           data-aos-delay="50"
           className="relative max-w-xs rounded-lg overflow-hidden shadow-lg hover:ring-1 hover:bg-cyan-400 group"
         >
@@ -50,10 +48,9 @@ function Services() {
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          data-aos-offset="200"
           data-aos-delay="50"
           data-aos-once="true"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="center-bottom"
           className="relative max-w-xs rounded-lg overflow-hidden shadow-lg hover:ring-1 hover:bg-cyan-400 group"
         >
           <img className="w-full" src="/manutencao-de-piscinas.jpg" alt="Guardião de Piscina" />

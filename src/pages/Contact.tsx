@@ -206,8 +206,8 @@ function Contact() {
                         {errors.phone.message}
                       </span>
                     ) : (
-                      <span className="invisible text-red-400 flex mt-2 justify-start ml-4">field without error</span> */}
-                    )}
+                      <span className="invisible text-red-400 flex mt-2 justify-start ml-4">field without error</span>
+                    )} */}
                   </div>
                   <div>
                     <label htmlFor="phone" className="sr-only">

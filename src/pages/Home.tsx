@@ -6,7 +6,7 @@ import Services from '../components/Services'
 function Home() {
   return (
     <>
-      <div className="bg-hero-pattern h-[80vh] relative flex flex-col justify-between overflow-hidden">
+      <div className="bg-hero-pattern h-screen relative flex flex-col justify-between overflow-hidden">
         <div id="svg-hero-top-pattern">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 160">
             <path fill="#0099ff" fill-opacity="0.8" d="M0,128L0,160L1440,160L1440,0L0,0L0,0Z"></path>
@@ -39,11 +39,11 @@ function Home() {
             ></path>
           </svg>
           <div className="relative flex flex-col items-center gap-2 bottom-0 bg-[#0099ff] z-50 w-full justify-center py-5">
-            <a className="bg-[#253041] mx-4 px-10 py-4 rounded-lg text-white text-2xl flex gap-4 items-center justify-center w-fit">
+            <a className="bg-[#253041] mx-4 px-4 py-4 rounded-lg text-white text-2xl flex gap-4 items-center justify-center w-fit">
               <img src="building.png" width={26} className="before-shape" />
               <span className="whitespace-nowrap">Serviços Comerciais</span>
             </a>
-            <a className="bg-[#0052da] mx-4 px-10 py-4 rounded-lg text-white text-2xl flex gap-4 items-center justify-center w-fit">
+            <a className="bg-[#0052da] mx-4 px-4 py-4 rounded-lg text-white text-2xl flex gap-4 items-center justify-center w-fit">
               <HouseLine size={32} className="before-shape" />
               <span className="whitespace-nowrap">Serviços Residenciais</span>
             </a>
